@@ -32,4 +32,5 @@ else
 fi
 
 source ~/.zshrc
+
 echo "\nPlease open a new shell to finish installation"
