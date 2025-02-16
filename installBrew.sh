@@ -43,4 +43,3 @@ rehash
 brew update
 
 echo "\nPlease open a new shell to finish installation"
-~                                                       
