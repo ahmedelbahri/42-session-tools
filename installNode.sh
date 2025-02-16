@@ -11,6 +11,8 @@ tar -xf $HOME/goinfre/node.tar.xz -C $HOME/goinfre/
 
 mv /$HOME/goinfre/node-v$V ~/goinfre/.node
 
+rm -rf $HOME/goinfre/node.tar.xz
+
 if ! grep -q 'export PATH="$HOME/goinfre/.node/bin:$PATH"' ~/.zshrc; then
     echo 'export PATH="$HOME/goinfre/.node/bin:$PATH"' >> ~/.zshrc
     echo "Added Node.js path to .zshrc"
