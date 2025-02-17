@@ -13,7 +13,7 @@ export HOMEBREW_TEMP=/tmp/\$USER/Homebrew/Temp
 mkdir -p \$HOMEBREW_CACHE
 mkdir -p \$HOMEBREW_TEMP
 
-if df -T autofs,nfs \$HOME/goinfre 1>/dev/null
+if df -T autofs,nfs \$HOME/goinfre 1>/dev/null 2>/dev/null
 then
   HOMEBREW_LOCKS_TARGET=/tmp/\$USER/Homebrew/Locks
   HOMEBREW_LOCKS_FOLDER=\$HOME/goinfre/.brew/var/homebrew
